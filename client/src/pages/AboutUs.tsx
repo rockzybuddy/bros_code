@@ -1,5 +1,4 @@
-import { color } from '@uiw/react-codemirror'
-import React from 'react'
+// import { color } from '@uiw/react-codemirror'
 import { useNavigate } from 'react-router-dom'
 import Navbar from '@/components/navbar/Navbar'
 import hello from '@/assets/11879298_202011_04-removebg.png'
