@@ -1,4 +1,3 @@
-import React from 'react';
 import './Navbar.css';
 import { useNavigate } from 'react-router-dom'
 import logo from '@/assets/WhatsApI-removebg-preview.png'
@@ -9,7 +8,7 @@ const homee=()=>{
     navigate('/')
 }
 const aboutt =()=>{
-    navigate('about-us')
+    navigate('/about-us')
 }
   return (
     <nav className="sticky-navbar bg-[#403b40c2]">
